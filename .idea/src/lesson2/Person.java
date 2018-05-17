@@ -25,6 +25,8 @@ public class Person {
      * @param person - new husband/wife for this person.
      * @return - returns true if this person has another gender than passed person and they are not husband and wife, false otherwise
      */
+
+
     public boolean marry(Person person) {
         if (this.man != person.man) {
             if (this.spouse == null && person.getSpouse() == null) {
